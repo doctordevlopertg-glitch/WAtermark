@@ -77,7 +77,6 @@ async def pdf_handler(client: Client, message: Message):
     file_name=doc.file_name,
     caption=message.caption or ""
 )
-    )
 
     for p in (input_path, output_path):
         try:
