@@ -73,9 +73,10 @@ async def pdf_handler(client: Client, message: Message):
     await status.edit_text("⬆️ Uploading...")
 
     await message.reply_document(
-        document=output_path,
-        file_name=doc.file_name,
-        caption="✅ Watermarked successfully."
+    document=output_path,
+    file_name=doc.file_name,
+    caption=message.caption or ""
+)
     )
 
     for p in (input_path, output_path):
