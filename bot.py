@@ -11,7 +11,7 @@ BOT_TOKEN = os.environ["BOT_TOKEN"]
 # Leave as 0 to allow everyone.
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 
-WATERMARK = "@THE_PHYSICS_LAD_BACKUP"
+WATERMARK = "@Nothing01_01"
 FONT_SIZE = 24
 COLOR = (0.82, 0.82, 0.82)
 
